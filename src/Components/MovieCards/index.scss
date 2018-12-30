@@ -1,0 +1,41 @@
+.movie-cards-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+
+	.poster {
+		cursor: pointer;
+		border-radius: 10px;
+		width: 18rem;
+		margin-right: 1rem;
+		margin-bottom: 2rem;
+		box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.2);
+		display: flex;
+		flex-direction: column;
+		.img {
+			height: 200px;
+			background-position: center;
+			background-size: cover;
+			width: 100%;
+		}
+		.info {
+			background: #fff;
+			padding: 1rem;
+		}
+		.title {
+			font-size: 1em;
+			font-weight: 300;
+			margin-bottom: 0.4em;
+		}
+		.text {
+			font-size: 0.9em;
+			color: #999;
+			font-weight: 300;
+		}
+	}
+}
+
+@media only screen and (max-width: 1072px) {
+	.movie-cards-wrapper {
+		justify-content: center;
+	}
+}

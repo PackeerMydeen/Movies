@@ -1,0 +1,16 @@
+.header-container {
+	.search {
+		width: 100%;
+		position: relative;
+		.searchTerm {
+			float: left;
+			width: 100%;
+			border: 3px solid #00b4cc;
+			height: 20px;
+			border-radius: 5px;
+			outline: none;
+			color: #9dbfaf;
+			padding: 1rem;
+		}
+	}
+}
