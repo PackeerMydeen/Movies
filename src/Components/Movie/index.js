@@ -37,11 +37,11 @@ export default class Movie extends Component {
 	};
 
 	getMovies = () => {
-		getMovies(this.state.searchInput).then(res =>
+		getMovies(this.state.searchInput).then(res => {
 			this.setState({
 				movies: res.data
-			})
-		);
+			});
+		});
 	};
 
 	render() {

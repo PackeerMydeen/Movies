@@ -10,7 +10,7 @@ export default function MovieCards(props) {
 				<Fragment>
 					{movies &&
 						movies.Search &&
-						movies.Search.map(item => (
+						movies.Search.slice(0, 5).map(item => (
 							<div className='poster'>
 								<div
 									className='img'
